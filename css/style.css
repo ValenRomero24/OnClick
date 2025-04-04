@@ -2,31 +2,91 @@
     outline:dotted 1px;
 } */
 body{
+    margin:0;
     display: flex;
     flex-direction:column;
     align-items:center;
 }
 
 .navbar{
+    position:absolute;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     padding:20px;
     background-color:lightgray;
-    align-self:stretch;
     font-size:25px;
-    
+    top:0px;
+    width:74%;
 }
 .logo a{
-    text-decoration:;
+    text-decoration:none;
     color:black;
     font-size:28px;
     font-weight:700;
 }
-.contenedor-principal{
-    display:flex;
+
+#search{
+    width:55%;
 }
 
-h1, h2, h3{
-    font-weight:500;
+#btn-iniciar-sesion{
+    background-color: rgb(0 147 255);
+    color:white;
+    width:10%;
+}
+.contenedor-principal{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    margin-top:80px;
+    gap:20px;
+    
+}
+
+.bloque{
+    display:block;
+    margin-right:65px;
+    margin-top:10px;
+}
+
+.contenedor-mascotas{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.info-mascota{
+    padding:10px;
+    border:solid 2px;
+}
+
+.pet-title{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.pet-subtitle{
+    font-style:italic;
+}
+
+.btn-me-gusta{
+    background-color:lightyellow;
+    border-radius:5px;
+    box-shadow:0px 5px 15px 0px black;
+}
+
+
+.agregar{
+    border:solid 2px;
+    padding:10px;
+    padding-right:170px;
+}
+
+#btn-agregar{
+    padding:6px;
+    padding-right:60px;
+    padding-left:60px;
+    background-color:green;
+    color:white;
 }

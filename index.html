@@ -11,38 +11,37 @@
             <div class="logo">
                 <a href="#">Petlopedia</a>
             </div>
-
-            <input type="text" class="search" placeholder="Buscar Mascotas">
-            
-            <button class="btn">Iniciar sesión</button>
+            <input type="text" id="search" placeholder="Buscar Mascotas">           
+            <button id="btn-iniciar-sesion">Iniciar Sesión</button>
         </div>
-
         <div class="contenedor-principal">
-            <div class="info">
-
-                <div class="gato-atigrado">
-                    <h1 class="pet-title">Gato Atigrado</h1>
-                    <h3 class="pet-subtitle">sustantivo</h3>
-                    <h2 class="plural">Plural: Gatos Atigrados</h2>
-                    <p>Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con una marca en forma de "M" en su frente</p>
-                    <button class="like">22 me gusta</button>
+            <div class="contenedor-mascotas">
+                <div class="info-mascota">
+                    <p>
+                        <span class="bloque pet-title">Gato Atigrado</span>        
+                        <span class="bloque pet-subtitle">sustantivo</span>
+                        <span class="bloque plural">Plural: Gatos Atigrados</span>
+                        <span class="bloque">Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con una marca en forma de "M" en su frente</span>
+                    </p>
+                    <button class="btn-me-gusta">22 Me gusta</button>
                 </div>
-
-                <div class="golde-retriever">
-                    <h1 class="pet-title">Golden Retriever</h1>
-                    <h3 class="pet-subtitle">sustantivo</h3>
-                    <h2 class="plural">Plural: Golden Retrievers</h2>
-                    <p>Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos</p>
-                    <button class="like">45 me gusta</button>
+                <div class="info-mascota">
+                    <p>
+                        <span class="bloque pet-title">Golden Retriever</span>        
+                        <span class="bloque pet-subtitle">sustantivo</span>
+                        <span class="bloque plural">Plural: Golden Retrievers</span>
+                        <span class="bloque">Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos</span>
+                    </p>
+                    <button class="btn-me-gusta">45 Me gusta</button>
                 </div>
             </div>
-
-            <div class="agregar">
-                <h2 class="title-agregar">Petlopedia está definida por TI</h2>
-                <button class="btn-agregar">Agregar Definición</button>
+            <div class="contenedor-agregar">
+                <div class="agregar">
+                    <p class="title-agregar">Petlopedia está definida por TI</p>
+                    <button id="btn-agregar">Agregar Definición</button>
+                </div>
             </div>
         </div>
-
         <script src="./js/index.js"></script>
     </body>
 </html>
